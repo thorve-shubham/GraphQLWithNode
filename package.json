@@ -1,0 +1,26 @@
+{
+  "name": "graphqlwithnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorve-shubham/GraphQLWithNode.git"
+  },
+  "author": "Shubham Thorve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thorve-shubham/GraphQLWithNode/issues"
+  },
+  "homepage": "https://github.com/thorve-shubham/GraphQLWithNode#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "lodash": "^4.17.19"
+  }
+}
