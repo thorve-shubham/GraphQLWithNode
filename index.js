@@ -1,7 +1,7 @@
 const experss = require('express');
 const app = experss();
 const { graphqlHTTP } = require('express-graphql');
-const { GraphQLObjectType, GraphQLSchema, GraphQLString } = require('graphql');
+
 
 const importedSchema = require('./schema/schema');
 
