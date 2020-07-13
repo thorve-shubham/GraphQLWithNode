@@ -2,6 +2,11 @@ const experss = require('express');
 const app = experss();
 const { graphqlHTTP } = require('express-graphql');
 
+const mongoose = require('mongoose');
+
+mongoose.connect("mongodb://localhost/gql-shubham",{ useNewUrlParser : true,useUnifiedTopology : true})
+    .then(()=>{ console.log("Connected to DB")})
+    .catch((err)=>{ console.log("Something went Wrong") });
 
 const importedSchema = require('./schema/schema');
 
